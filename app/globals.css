@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 body {
-  background: #fafaf9;
-  color: #1c1917;
-  font-family: "IBM Plex Sans", sans-serif;
+  background: #f4f2ed;
+  color: #23211e;
+  font-family: "Barlow", sans-serif;
   overflow-x: hidden;
 }

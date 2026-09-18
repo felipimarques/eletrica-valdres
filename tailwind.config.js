@@ -4,10 +4,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        hazard: { orange: "#EA580C", deep: "#9A3412" },
-        site: { light: "#FAFAF9", ink: "#1C1917", panel: "#F5F5F4" },
+        paper: "#F4F2ED",
+        graphite: "#23211E",
+        smoke: "#6E6A61",
+        line: "#DDD8CC",
+        signal: "#C8102E",
       },
-      fontFamily: { sans: ['"IBM Plex Sans"', "sans-serif"] },
+      fontFamily: {
+        cond: ['"Barlow Condensed"', "sans-serif"],
+        sans: ["Barlow", "sans-serif"],
+      },
     },
   },
   plugins: [],
